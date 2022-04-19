@@ -1,0 +1,23 @@
+{"intents": 
+[
+    {   
+        "tag": "greeting",
+        "patterns": ["Hey", "Hello", "What's up?","How is it going", "Hi", "Good day"],
+        "responses": ["Hello Sir, what can I do for you?"]
+    },
+    {
+        "tag": "create_note",
+        "patterns": ["create a new note", "write a note", "write a new note","New note", "Create note"],
+        "responses": [""]
+    },
+    {
+        "tag": "add_event",
+        "patterns": ["add an event", "add new event", "create a calendar event","create new event on calendar"],
+        "responses": [""]
+    },
+    {
+        "tag": "show_agenda",
+        "patterns": ["show my agenda", "what are my agenda", "what is on my agenda","agenda", "show agenda"],
+        "responses": [""]
+    }
+]}
